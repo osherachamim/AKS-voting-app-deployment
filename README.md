@@ -61,8 +61,8 @@ The application consists of:
 5. **Results App (Node.js)**: Displays real-time voting results.
 
 ### Accessing the Application
-- **Voting App**: `http://<voting-service-EXTERNAL-IP>:<PORT>`
-- **Results App**: `http://<result-service-EXTERNAL-IP>:<PORT>`
+- **Voting App**: `http://<voting-service-EXTERNAL-IP>`
+- **Results App**: `http://<result-service-EXTERNAL-IP>`
 
 ![App UI](visual-app-ui.jpg)
 
