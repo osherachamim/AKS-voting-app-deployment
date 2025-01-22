@@ -64,8 +64,11 @@ The application consists of:
 - **Voting App**: `http://<voting-service-EXTERNAL-IP>:<PORT>`
 - **Results App**: `http://<result-service-EXTERNAL-IP>:<PORT>`
 
+![App UI](visual-app-ui.jpg)
+
 ## Resources
 For detailed steps, refer to the [Microsoft AKS Documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli).
 
-## Credits
-This project is inspired by the Docker Compose Voting App, refactored for Kubernetes.
+## Conclusion
+
+This voting app demonstrates how to build a microservices-based application using multiple technologies such as Python, Redis, .NET, PostgreSQL, and Node.js. 
