@@ -7,7 +7,7 @@ This repository demonstrates deploying a microservices-based voting application 
 - Azure Account
 - Active Azure Subscription
 - Basic Azure Knowledge
-- Docker & Kubernetes CLI Tools Installed
+
 
 ## Deployment Steps
 
