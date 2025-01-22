@@ -7,18 +7,16 @@ metadata:
     app: demo-voting-app
 
 spec:
-    replicas: 1
-    selector:
-      matchLabels:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: redis-pod
+      app: demo-voting-app
+  template:
+    metadata:
+      labels:
         name: redis-pod
         app: demo-voting-app
-    template:
-      metadata:
-        name: redis-pod
-        labels:
-          name: redis-pod
-          app: demo-voting-app
-
     spec:
       containers:
         - name: redis
