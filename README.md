@@ -30,7 +30,7 @@ az aks get-credentials --resource-group votingapp-rg --name example-voting-app
 
 ### Step 3: Clone This Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/osherachamim/AKS-voting-app-deployment.git
 cd AKS-voting-app-deployment
 ```
 
